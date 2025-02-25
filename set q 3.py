@@ -1,0 +1,9 @@
+a=set()
+b={"vaibhav","prince","manav",'x','y'}
+a.update(b)
+print(a)
+a.add("priyank")
+print(a)
+a.remove('x')
+a.remove('y')
+print(a)
